@@ -1,0 +1,165 @@
+{
+  "id": "/",
+  "name": "FamFinance P2P - Economía Familiar",
+  "short_name": "FamFinance",
+  "description": "Gestión económica familiar colaborativa y privada con sincronización P2P encriptada entre dispositivos, reportes PDF/CSV, presupuestos y control de gastos.",
+  "lang": "es",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "theme_color": "#0f172a",
+  "background_color": "#020617",
+  "categories": [
+    "finance",
+    "productivity",
+    "utilities"
+  ],
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "edge_side_panel": {
+    "preferred_width": 480
+  },
+  "note_taking": {
+    "new_note_url": "/?action=new-transaction"
+  },
+  "scope_extensions": [
+    {
+      "origin": "https://ais-pre-awa4no7mwgtpqms65omrla-176640878246.europe-west3.run.app"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/?action=import",
+      "name": "Archivos FamFinance",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ],
+      "accept": {
+        "application/json": [".json"],
+        "text/csv": [".csv"]
+      }
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+famfinance",
+      "url": "/?sync=%s"
+    }
+  ],
+  "share_target": {
+    "action": "/?action=share-target",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "widgets": [
+    {
+      "name": "Resumen FamFinance",
+      "description": "Balance mensual familiar y ahorros",
+      "tag": "famfinance-balance",
+      "template": "widget-balance",
+      "ms_ac_template": "widget-balance.json",
+      "data": "/?widget=balance",
+      "type": "application/json",
+      "screenshots": [
+        {
+          "src": "/screenshot-mobile.png",
+          "sizes": "540x960",
+          "label": "Vista rápida de balance familiar"
+        }
+      ],
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Resumen Financiero Familiar y Métricas"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Control de Movimientos, Presupuestos y Sincronización P2P"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nuevo Movimiento",
+      "short_name": "Movimiento",
+      "description": "Registrar rápidamente un gasto o ingreso",
+      "url": "/?action=new-transaction",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Sincronizar Familia",
+      "short_name": "Sincronizar",
+      "description": "Conectar y sincronizar con dispositivos de la familia",
+      "url": "/?tab=sync",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

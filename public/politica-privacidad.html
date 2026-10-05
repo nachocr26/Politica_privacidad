@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad — FamFinance P2P</title>
+  <meta name="description" content="Política de Privacidad oficial de FamFinance P2P. Gestión financiera familiar con arquitectura Zero-Server, cifrado de extremo a extremo y máxima privacidad." />
+  <link rel="icon" type="image/png" href="/icon-192.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #121826;
+      --border: #1e293b;
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --accent: #10b981;
+      --accent-glow: rgba(16, 185, 129, 0.15);
+      --font: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: var(--font);
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--accent-glow);
+      color: var(--accent);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 0.35rem 0.9rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #ffffff 40%, #10b981 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .section-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 1.25rem;
+      padding: 1.75rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    h2 span.num {
+      color: var(--accent);
+      font-size: 1.1rem;
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #e2e8f0;
+      margin: 1.25rem 0 0.5rem 0;
+    }
+    p {
+      color: var(--text-muted);
+      font-size: 0.925rem;
+      margin-bottom: 1rem;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 1rem;
+    }
+    li {
+      position: relative;
+      padding-left: 1.5rem;
+      color: var(--text-muted);
+      font-size: 0.925rem;
+      margin-bottom: 0.5rem;
+    }
+    li::before {
+      content: "•";
+      position: absolute;
+      left: 0.5rem;
+      color: var(--accent);
+      font-weight: bold;
+    }
+    strong {
+      color: #ffffff;
+    }
+    .highlight-box {
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      border-radius: 1rem;
+      padding: 1.25rem;
+      margin: 1rem 0;
+    }
+    .highlight-box p {
+      color: #d1fae5;
+      font-size: 0.875rem;
+    }
+    footer {
+      text-align: center;
+      padding-top: 2rem;
+      color: #64748b;
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      margin-top: 3rem;
+    }
+    @media (max-width: 640px) {
+      h1 { font-size: 1.75rem; }
+      .section-card { padding: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="badge">Privacidad y Protección de Datos</div>
+    <h1>Política de Privacidad</h1>
+    <p class="subtitle">FamFinance P2P · Última actualización: Octubre de 2026</p>
+  </header>
+
+  <!-- 1. INTRODUCCIÓN -->
+  <div class="section-card">
+    <h2><span class="num">1.</span> Introducción y Compromiso de Privacidad</h2>
+    <p>
+      En <strong>FamFinance P2P</strong> (en adelante, "la Aplicación"), la privacidad y confidencialidad de tus datos económicos y personales constituyen el núcleo fundamental de nuestra arquitectura técnica.
+    </p>
+    <div class="highlight-box">
+      <p>
+        <strong>🔒 Principio Fundamental "Zero-Server":</strong> FamFinance <strong>no almacena tus datos financieros en servidores centrales en la nube</strong> ni los transmite a bases de datos de nuestra propiedad. Tus registros contables pertenecen única y exclusivamente a los dispositivos de tu núcleo familiar.
+      </p>
+    </div>
+    <p>
+      Esta Política de Privacidad describe de manera transparente el tratamiento de la información cuando utilizas nuestra aplicación móvil para Android, conforme al <strong>Reglamento General de Protección de Datos (RGPD) de la Unión Europea</strong>, la <strong>Ley Orgánica 3/2018 (LOPD-GDD)</strong> de España y las <strong>Políticas de Desarrollador de Google Play</strong>.
+    </p>
+  </div>
+
+  <!-- 2. DATOS QUE TRATA LA APP -->
+  <div class="section-card">
+    <h2><span class="num">2.</span> Datos Tratados y Arquitectura de Cero Conocimiento</h2>
+    <p>La Aplicación procesa las siguientes categorías de datos estrictamente en tu propio dispositivo:</p>
+    <ul>
+      <li><strong>Registros Financieros Personales:</strong> Ingresos, gastos, categorías, presupuestos, metas de ahorro, notas de voz transcritas y cuentas bancarias agregadas manualmente o mediante extracto.</li>
+      <li><strong>Identificadores de Dispositivo Criptográficos:</strong> Un identificador aleatorio de instalación (UUID generado localmente mediante WebCrypto API) para la derivación de licencias y sincronización entre dispositivos.</li>
+      <li><strong>Claves de Cifrado E2EE:</strong> La clave de cifrado familiar se deriva localmente mediante PBKDF2 (100.000 iteraciones HMAC-SHA-256) a partir de tu frase de recuperación. Estas claves jamás se transmiten a terceros sin cifrar.</li>
+    </ul>
+  </div>
+
+  <!-- 3. PERMISOS DEL DISPOSITIVO -->
+  <div class="section-card">
+    <h2><span class="num">3.</span> Permisos Solicitados en Android y Finalidad</h2>
+    <p>Para su correcto funcionamiento, FamFinance solicita los siguientes permisos en tu dispositivo:</p>
+    
+    <h3>A. Cámara (android.permission.CAMERA)</h3>
+    <p>
+      <strong>Finalidad:</strong> Permite escanear el código QR de invitación familiar generado por otro miembro de tu hogar para enlazar ambos dispositivos.
+      <br><em>Garantía:</em> El flujo de la cámara se analiza en tiempo real en la memoria volátil del dispositivo; ninguna fotografía ni vídeo se graba, almacena o envía a ningún servidor.
+    </p>
+
+    <h3>B. Micrófono (android.permission.RECORD_AUDIO)</h3>
+    <p>
+      <strong>Finalidad:</strong> Permite la grabación de notas de voz opcionales para describir y categorizar gastos rápidamente.
+      <br><em>Garantía:</em> El audio se procesa en el dispositivo y no se comparte con servicios externos de analítica.
+    </p>
+
+    <h3>C. Servicio de Escucha de Notificaciones (BIND_NOTIFICATION_LISTENER_SERVICE)</h3>
+    <p>
+      <strong>Finalidad:</strong> Permite la lectura automática opcional de las notificaciones emitidas por entidades bancarias españolas (BBVA, Santander, CaixaBank, ING, Sabadell, Revolut, etc.) y Google Wallet cuando realizas una compra o Bizum.
+      <br><em>Garantía estricta:</em> El servicio solo analiza paquetes de aplicaciones bancarias explícitamente reconocidas. Extrae el importe y el comercio localmente y descarta el resto. Los textos bancarios jamás se transmiten a ningún servidor.
+    </p>
+
+    <h3>D. Biometría y Huella Dactilar (USE_BIOMETRIC / USE_FINGERPRINT)</h3>
+    <p>
+      <strong>Finalidad:</strong> Permite proteger el acceso a la app mediante el sensor biométrico del teléfono.
+      <br><em>Garantía:</em> La autenticación la realiza el propio hardware seguro de Android (BiometricPrompt / KeyStore). La Aplicación nunca tiene acceso a tu huella ni a tus datos biométricos.
+    </p>
+
+    <h3>E. Acceso a Internet y Facturación (INTERNET / BILLING)</h3>
+    <p>
+      <strong>Finalidad:</strong> Utilizado para la sincronización P2P directa entre móviles (WebRTC / red Nostr cifrada) y para procesar la compra opcional de la versión Pro sin anuncios a través de Google Play Billing.
+    </p>
+  </div>
+
+  <!-- 4. PUBLICIDAD Y SERVICIOS DE TERCEROS -->
+  <div class="section-card">
+    <h2><span class="num">4.</span> Publicidad y Proveedores Externos (Google AdMob)</h2>
+    <p>
+      En su versión gratuita, FamFinance muestra anuncios publicitarios gestionados por <strong>Google AdMob</strong> (Google LLC):
+    </p>
+    <ul>
+      <li>Google AdMob puede recopilar y procesar identificadores de publicidad del dispositivo (Google Advertising ID / GAID), dirección IP, datos de diagnóstico de rendimiento e interacciones con el anuncio para la entrega y medición de publicidad conforme a las <a href="https://policies.google.com/technologies/ads" target="_blank" style="color: var(--accent); text-decoration: underline;">Políticas de Privacidad de Google</a>.</li>
+      <li><strong>Versión Pro Sin Anuncios:</strong> La compra integrada de FamFinance Pro desactiva por completo el SDK de Google AdMob y la visualización de publicidad para el usuario y su grupo familiar.</li>
+    </ul>
+  </div>
+
+  <!-- 5. PROTOCOLO DE BORRADO -->
+  <div class="section-card">
+    <h2><span class="num">5.</span> Derecho al Olvido y Protocolo de Borrado a Cero</h2>
+    <p>
+      Dado que los datos residen en tu propio dispositivo, tienes el control absoluto sobre ellos en todo momento:
+    </p>
+    <ul>
+      <li><strong>Borrado Completo Inmediato:</strong> En cualquier momento puedes pulsar en <em>Ajustes > Avanzado > "Borrar todos los datos y reiniciar a 0"</em>. Esta acción purga instantáneamente la base de datos local, destruye las claves criptográficas y restablece la app a su estado inicial.</li>
+      <li><strong>Expulsión o Abandono Familiar:</strong> Cuando un miembro abandona o es expulsado del grupo familiar, el protocolo de la app ejecuta un formateo automático a 0 de su copia local, desvinculando el dispositivo para siempre.</li>
+      <li><strong>Exportación y Portabilidad:</strong> Puedes exportar todos tus movimientos en formatos abiertos universales (JSON cifrado, Excel .xlsx o CSV) en cualquier momento sin restricciones.</li>
+    </ul>
+  </div>
+
+  <!-- 6. CONTACTO -->
+  <div class="section-card">
+    <h2><span class="num">6.</span> Contacto del Responsable</h2>
+    <p>
+      Para cualquier duda, consulta o ejercicio de derechos en materia de privacidad y protección de datos referente a FamFinance P2P, puedes ponerte en contacto directamente con el desarrollador:
+    </p>
+    <p style="margin-top: 0.5rem;">
+      📧 <strong>Correo de soporte:</strong> <span style="color: var(--accent);">nachocr26@gmail.com</span><br>
+      📦 <strong>Repositorio oficial:</strong> <a href="https://github.com/nachocr26/famfinance" target="_blank" style="color: var(--accent); text-decoration: underline;">github.com/nachocr26/famfinance</a>
+    </p>
+  </div>
+
+  <footer>
+    <p>© 2026 FamFinance P2P. Todos los derechos reservados. Diseñado para la máxima soberanía y privacidad financiera.</p>
+  </footer>
+</div>
+
+</body>
+</html>
