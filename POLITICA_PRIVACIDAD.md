@@ -61,6 +61,5 @@ El usuario mantiene el control total sobre su información en todo momento:
 
 Para cualquier consulta relativa a la privacidad de FamFinance P2P:
 
-- **Responsable:** Ignacio Cantero
+- **Responsable:** Juan Ignacio Cantero
 - **Correo electrónico:** nachocr26@gmail.com
-- **Repositorio del proyecto:** [https://github.com/nachocr26/famfinance](https://github.com/nachocr26/famfinance)
